@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserModule.withServerTransition({appId: 'my-app'})
   ],
   providers: [],
   bootstrap: [AppComponent]
